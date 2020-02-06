@@ -5,5 +5,7 @@ some useful websites:
 https://www.quora.com/What-are-good-online-tutorials-on-beginning-algorithmic-trading
 https://quantiacs.com/Home.aspx
 
-To run the tutorial_altrading.ipynb, one has to install singularity in native linux, then pull the container image using
-singularity pull --arch amd64 library://xianhesylabs/default/quant_trading:1.0
+To run the tutorial_altrading.ipynb smoothly, one can download the docker images file using docker or singularity.
+docker pull xianhedocker/quant_trading:1.0
+or
+singularity pull docker://xianhedocker/quant_trading:1.0
