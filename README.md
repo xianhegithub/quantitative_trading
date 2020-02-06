@@ -6,6 +6,9 @@ https://www.quora.com/What-are-good-online-tutorials-on-beginning-algorithmic-tr
 https://quantiacs.com/Home.aspx
 
 To run the tutorial_altrading.ipynb smoothly, one can download the docker images file using docker or singularity.
+
 docker pull xianhedocker/quant_trading:1.0
+
 or
+
 singularity pull docker//:xianhedocker/quant_trading:1.0
