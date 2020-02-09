@@ -20,6 +20,7 @@ $ docker run -p 8890:8888 xianhedocker/quant_trading:1.0 jupyter lab
 To mount local files to the container image
 
 $ docker run -v /local_folder/:/home/jovyan/work/ -p 8890:8888 xianhedocker/quant_trading:1.0 jupyter lab
+
 replace /local_folder/ with your files' path.
 /home/jovyan/work/ is the mounted directory inside the container instance.
 
