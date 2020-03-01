@@ -8,3 +8,5 @@ RUN pip install easydict==1.9.0
 RUN pip install scipy
 RUN pip install sklearn
 RUN pip install jupyterlab
+RUN pip install matplotlib
+RUN pip install seaborn
