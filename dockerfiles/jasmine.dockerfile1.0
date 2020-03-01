@@ -1,0 +1,9 @@
+# Copyright (c) Jupyter Development Team.
+# Distributed under the terms of the Modified BSD License.
+ARG BASE_CONTAINER=tensorflow/tensorflow:1.15.0-gpu-py3-jupyter
+FROM $BASE_CONTAINER
+
+RUN pip install -U pip
+RUN pip install easydict==1.9.0
+RUN pip install scipy
+RUN pip install sklearn
