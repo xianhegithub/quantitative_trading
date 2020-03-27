@@ -1,0 +1,4 @@
+ARG BASE_CONTAINER=tensorflow/tensorflow:2.1.0-gpu-py3-jupyter
+FROM $BASE_CONTAINER
+
+RUN conda install -c conda-forge pymongo
