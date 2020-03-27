@@ -1,4 +1,4 @@
 ARG BASE_CONTAINER=tensorflow/tensorflow:2.1.0-gpu-py3-jupyter
 FROM $BASE_CONTAINER
 
-RUN pip install pymongo
+RUN pip install pymongo==3.9.0
