@@ -1,6 +1,7 @@
 ARG BASE_CONTAINER=tensorflow/tensorflow:2.1.0-gpu-py3-jupyter
 FROM $BASE_CONTAINER
 
+RUN pip install --quiet --upgrade pip
 RUN pip install --quiet pymongo==3.9.0
 RUN pip install --quiet pandas==0.25.3
 RUN pip install --quiet networkx==2.4
