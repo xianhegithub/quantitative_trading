@@ -1,2 +1,4 @@
 ARG BASE_CONTAINER=pytorch/pytorch:1.4-cuda10.1-cudnn7-runtime
 FROM $BASE_CONTAINER
+
+RUN pip install --quiet jupyterlab==1.2.5
