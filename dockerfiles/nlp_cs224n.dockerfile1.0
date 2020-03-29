@@ -5,3 +5,6 @@ RUN pip install --quiet jupyterlab==1.2.5
 RUN pip install --quiet matplotlib==3.1.2 seaborn==0.10.0
 RUN pip install --quiet scikit-learn==0.22.1 
 RUN pip install --quiet gensim==3.8.1
+RUN pip install --quiet ipykernel==5.2.0
+RUN pip install --quiet nltk==3.4.5
+RUN pip install --quiet numpy==1.18.2
