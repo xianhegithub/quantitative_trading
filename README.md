@@ -10,8 +10,7 @@ You first need a docker hub account and login in in the command line.
 
 $ docker login
 errors might occur at login, most of them can be fixed by typing in the command
-
-$sudo chmod 666 /var/run/docker.sock
+\\$sudo chmod 666 /var/run/docker.sock
 
 Once login, pull the container image
 $ docker pull xianhedocker/quant_trading:1.1. or
